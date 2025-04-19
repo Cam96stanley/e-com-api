@@ -43,7 +43,7 @@ Follow these steps to set up and run the E-Com API locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/e-com-api.git
+git clone https://github.com/Cam96stanley/e-com-api.git
 cd e-com-api
 ```
 
