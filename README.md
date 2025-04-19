@@ -4,7 +4,6 @@
 ![Flask](https://img.shields.io/badge/Flask-3.1-lightgrey?logo=flask)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red?logo=sqlite)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue?logo=mysql)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ---
 
@@ -19,8 +18,6 @@ The project includes:
 - 🔹 Marshmallow schemas for serialization and validation
 - 🔹 Multiple API endpoints for full CRUD functionality
 
----
-
 ## 🏗️ Technologies Used
 
 - [Python 3](https://www.python.org/)
@@ -30,16 +27,14 @@ The project includes:
 - [MySQL](https://www.mysql.com/)
 - [Postman](https://www.postman.com/) for API testing
 
----
-
 ## 📁 Project Structure
 
+```bash
 e-com-api/
-├── app.py # Main Flask application with models and api calls  
+├── app.py # Main Flask application with models and api calls
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Files to exclude from version control
-
----
+```
 
 ## 🚀 Setup Instructions
 
@@ -91,8 +86,6 @@ python app.py
 
 The API should now be running at ***http://127.0.0.1:5000/***.
 
----
-
 ## 🔌 API Endpoints
 
 #### Users
@@ -125,8 +118,6 @@ The API should now be running at ***http://127.0.0.1:5000/***.
 | PUT    | `/orders/<int:order_id>/add_product/<int:prod_id>` | Update product                 |
 | DELETE | `/orders/<int:prod_id>/remove_product`             | Delete a product from an order |
 
----
-
 ## 🧰 Features
 
 - **User Management**:
@@ -149,13 +140,9 @@ The API should now be running at ***http://127.0.0.1:5000/***.
 - **Association of Orders and Products**:
   - Use an association table to link products to orders, allowing flexibility in managing order contents.
 
----
-
 ## 🧪 Testing
 
 Use [Postman](https://www.postman.com) to test endpoints. You can test all routes using JSON requests and instpect reponses directly.
-
----
 
 ## 🛠 Future Enhancements
 
@@ -189,8 +176,6 @@ The following features and improvements are planned for future versions of the E
    - Allow users to leave reviews and ratings for products, enhancing user engagement.
 
 These enhancements will be incorporated in future releases to improve functionality and usability.
-
----
 
 ## 📧 Contact
 
