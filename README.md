@@ -13,10 +13,10 @@
 
 The project includes:
 
-- 🔹 Three core models: `User`, `Product`, and `Order`
-- 🔹 An association table for the many-to-many relationship between Orders and Products
-- 🔹 Marshmallow schemas for serialization and validation
-- 🔹 Multiple API endpoints for full CRUD functionality
+- Three core models: `User`, `Product`, and `Order`
+- An association table for the many-to-many relationship between Orders and Products
+- Marshmallow schemas for serialization and validation
+- Multiple API endpoints for full CRUD functionality
 
 ## 🏗️ Technologies Used
 
